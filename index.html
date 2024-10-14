@@ -1,11 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Editing Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/40efee845b.js" crossorigin="anonymous"></script>
 </head>
+<style>
+    body {
+        font-family: "Sora", sans-serif;
+    }
+</style>
+
 <body>
-    
+    <header>
+        <!-- Navigation Part -->
+        <nav class="flex items-center justify-between px-[135px] py-[24px]">
+            <div class="flex items-center">
+                <img alt="Company logo" class="h-10 w-36" src="images/logo.png" />
+            </div>
+            <div class="flex items-center space-x-8">
+                <a class="text-black font-bold" href="#">
+                    Home
+                </a>
+                <a class="text-black" href="#">
+                    Features
+                </a>
+                <a class="text-black" href="#">
+                    Create
+                </a>
+                <a class="text-black" href="#">
+                    Pricing
+                </a>
+                <a class="text-black" href="#">
+                    Blog
+                </a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a class="bg-pink-500 text-white px-4 py-2 rounded-md" href="#">
+                    Sign up
+                </a>
+                <a class="border border-gray-300 text-black px-4 py-2 rounded-md" href="#">
+                    Login
+                </a>
+            </div>
+        </nav>
+        <!-- Banner Part -->
+        <div class="grid grid-cols-2 px-[135px] pt-[91px] pb-[71px] bg-gradient-to-r from-[#FFA7EC24] to-[#FFA7EC00]">
+            <div>
+                <h1 class="text-7xl font-semibold w-[714px] leading-[100px]">Create awesome videos with 
+                    <span class=" text-[#F74988] border-b-[#F74988] border-b-4">simplifier's</span></h1>
+                <p class="w-[520px] text-xl font-light leading-[30px] text-[#4D4D55] mt-6 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <button class="bg-[#000000] py-[9px] px-[20px] text-white rounded-md">Start for free <i class="fa-solid fa-arrow-right ms-[12px]"></i></button>
+                <button class="border-[#DDDDE1] border-[1px] py-[9px] px-[20px] rounded-md ms-4">Play demo video</button>
+            </div>
+            <div>
+                <img src="images/Background Images.png" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- Banner Part End -->
+     <div class="pb-[68px]">
+        <div class="px-[420px]">
+            <h3 class="text-[48px] font-semibold mb-[60px]">Trusted by Leading <span class="text-[#F74954] border-b-4 border-[#F74954]">Brands</span> Across The World</h3>
+        </div>
+        <div class="grid gap-[60px] grid-cols-6 px-[196px]">
+            <div class="w-[113px]">
+                <img src="images/Brand logo/01.png" alt="">
+            </div>
+            <div class="w-[113px]">
+                <img src="images/Brand logo/02.png" alt="">
+            </div>
+            <div class="w-[113px]">
+                <img src="images/Brand logo/03.png" alt="">
+            </div>
+            <div class="w-[113px]">
+                <img src="images/Brand logo/04.png" alt="">
+            </div>
+            <div class="w-[113px]">
+                <img src="images/Brand logo/05.png" alt="">
+            </div>
+            <div class="w-[113px]">
+                <img src="images/Brand logo/06.png" alt="">
+            </div>
+        </div>
+     </div>
+
+     <!-- Video Part Start -->
+      <section class="px-[135px]">
+        <div>
+            <div>
+                <div class="grid grid-cols-2 gap-[100px] px-150px">
+                    <div class="bg-gradient-to-r from-[#7067EB] via-[#F74988] to-[#F29F53] w-[ 1170px] h-[328px] rounded-lg">
+                        <h4 class="text-[48px] font-semibold w-[607px] text-white pt-[58px] ps-[63px] leading-[60px] mb-[48px]">Turn your Video into ready to use <span class="font-light">content</span></h4>
+                        <button class="bg-[#FFFFFF] py-[15px] px-[20px] ms-[63px] text-[16px] rounded-full">See All Templates</button>
+                    </div>
+                    <div class="py-[40px] ps-[40px] pe-[56px] w-[370px] rounded-md shadow-lg">
+                        <img class="w-[100px]" src="images/video icon/01.png" alt="">
+                        <h3 class="text-[30px] font-semibold mt-4">Video Resizing</h3>
+                        <p class="text-[#686877] text-[16px] leading-[24px] w-[274px]">Your full episode cleaned, transcribed, and ready to publish in written format.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 px-[150px]">
+                <div class="py-[40px] ps-[40px] pe-[56px] rounded-md shadow-lg">
+                    <img class="w-[100px]" src="images/video icon/01.png" alt="">
+                    <h3 class="text-[30px] font-semibold mt-4">Video Clipping</h3>
+                    <p class="text-[#686877] text-[16px] leading-[24px]">Your full episode cleaned, transcribed, and ready to publish in written format.</p>
+                </div>
+                <div class="py-[40px] ps-[40px] pe-[56px] rounded-md shadow-lg">
+                    <img class="w-[100px]" src="images/video icon/02.png" alt="">
+                    <h3 class="text-[30px] font-semibold mt-4">Video Captioning</h3>
+                    <p class="text-[#686877] text-[16px] leading-[24px]">Your full episode cleaned, transcribed, and ready to publish in written format.</p>
+                </div>
+                <div class="py-[40px] ps-[40px] pe-[56px] rounded-md shadow-lg">
+                    <img class="w-[100px]" src="images/video icon/Chapter.png" alt="">
+                    <h3 class="text-[30px] font-semibold mt-4">Video Chapters</h3>
+                    <p class="text-[#686877] text-[16px] leading-[24px]">Your full episode cleaned, transcribed, and ready to publish in written format.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <Section class="mt-[80px]">
+        <div class="container mx-auto px-4 py-8">
+            <h1 class="text-4xl font-bold text-center mb-4">
+             Thousands of
+             <span class="text-[#F74988] border-b-4 border-b-[#F74954]">
+              Templates
+             </span>
+            </h1>
+            <div class="flex justify-center space-x-4 mb-8">
+             <a class="text-gray-800 border-b-2 border-red-500" href="#">
+              Recommended
+             </a>
+             <a class="text-gray-800" href="#">
+              Corporate
+             </a>
+             <a class="text-gray-800" href="#">
+              Promo
+             </a>
+             <a class="text-gray-800" href="#">
+              Intro/Outro
+             </a>
+             <a class="text-gray-800" href="#">
+              Education
+             </a>
+             <a class="text-gray-800" href="#">
+              Sport
+             </a>
+             <a class="text-gray-800" href="#">
+              Real Estate
+             </a>
+             <a class="text-gray-800" href="#">
+              Birthday
+             </a>
+             <a class="text-gray-800" href="#">
+              Slideshow
+             </a>
+            </div>
+            <div class="grid grid-cols-3 gap-4">
+             <div class="relative">
+              <img alt="Abstract image with orange and white colors" class="w-full h-auto rounded-lg" height="200" src="images/video/02.png" width="300"/>
+              <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">
+               HD 1:20
+              </div>
+              <div class="absolute inset-0 flex items-center justify-center">
+               <i class="fas fa-play text-white text-2xl">
+               </i>
+              </div>
+             </div>
+             <div class="relative">
+              <img alt="Abstract image with pink and yellow colors" class="w-full h-auto rounded-lg" height="200" src="images/video/02.png" width="300"/>
+              <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">
+               HD 1:20
+              </div>
+              <div class="absolute inset-0 flex items-center justify-center">
+               <i class="fas fa-play text-white text-2xl">
+               </i>
+              </div>
+             </div>
+             <div class="relative">
+              <img alt="Abstract image with green and orange colors" class="w-full h-auto rounded-lg" height="200" src="images/video/02.png" width="300"/>
+              <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">
+               HD 1:20
+              </div>
+              <div class="absolute inset-0 flex items-center justify-center">
+               <i class="fas fa-play text-white text-2xl">
+               </i>
+              </div>
+             </div>
+             <div class="relative">
+              <img alt="Abstract image with purple colors" class="w-full h-auto rounded-lg" height="200" src="images/video/02.png" width="300"/>
+              <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">
+               HD 1:20
+              </div>
+              <div class="absolute inset-0 flex items-center justify-center">
+               <i class="fas fa-play text-white text-2xl">
+               </i>
+              </div>
+             </div>
+             <div class="relative">
+              <img alt="Abstract image with pink and black colors" class="w-full h-auto rounded-lg" height="200" src="images/video/02.png" width="300"/>
+              <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">
+               HD 1:20
+              </div>
+              <div class="absolute inset-0 flex items-center justify-center">
+               <i class="fas fa-play text-white text-2xl">
+               </i>
+              </div>
+             </div>
+             <div class="relative">
+              <img alt="Abstract image with multiple colors" class="w-full h-auto rounded-lg" height="200" src="images/video/02.png" width="300"/>
+              <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">
+               HD 1:20
+              </div>
+              <div class="absolute inset-0 flex items-center justify-center">
+               <i class="fas fa-play text-white text-2xl">
+               </i>
+              </div>
+             </div>
+            </div>
+            <div class="flex justify-center mt-8">
+             <button class="bg-[#F74988] text-white px-6 py-2 rounded-md">
+              Create a video
+             </button>
+            </div>
+           </div>
+      </Section>
 </body>
+
 </html>
