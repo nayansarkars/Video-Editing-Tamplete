@@ -128,105 +128,83 @@
         </div>
     </section>
 
+    <!-- Filtering Part Start  -->
       <Section class="mt-[80px]">
         <div class="container mx-auto px-4 py-8">
-            <h1 class="text-4xl font-bold text-center mb-4">
-             Thousands of
-             <span class="text-[#F74988] border-b-4 border-b-[#F74954]">
-              Templates
-             </span>
-            </h1>
+            <h1 class="text-4xl font-bold text-center mb-4">Thousands of <span class="text-red-500">Templates</span></h1>
             <div class="flex justify-center space-x-4 mb-8">
-             <a class="text-gray-800 border-b-2 border-red-500" href="#">
-              Recommended
-             </a>
-             <a class="text-gray-800" href="#">
-              Corporate
-             </a>
-             <a class="text-gray-800" href="#">
-              Promo
-             </a>
-             <a class="text-gray-800" href="#">
-              Intro/Outro
-             </a>
-             <a class="text-gray-800" href="#">
-              Education
-             </a>
-             <a class="text-gray-800" href="#">
-              Sport
-             </a>
-             <a class="text-gray-800" href="#">
-              Real Estate
-             </a>
-             <a class="text-gray-800" href="#">
-              Birthday
-             </a>
-             <a class="text-gray-800" href="#">
-              Slideshow
-             </a>
+                <a href="#" class="text-gray-900 font-semibold border-b-2 border-red-500 filter-link" data-filter="all">Recommended</a>
+                <a href="#" class="text-gray-500 filter-link" data-filter="corporate">Corporate</a>
+                <a href="#" class="text-gray-500 filter-link" data-filter="promo">Promo</a>
+                <a href="#" class="text-gray-500 filter-link" data-filter="intro-outro">Intro/Outro</a>
+                <a href="#" class="text-gray-500 filter-link" data-filter="education">Education</a>
+                <a href="#" class="text-gray-500 filter-link" data-filter="sport">Sport</a>
+                <a href="#" class="text-gray-500 filter-link" data-filter="real-estate">Real Estate</a>
+                <a href="#" class="text-gray-500 filter-link" data-filter="birthday">Birthday</a>
+                <a href="#" class="text-gray-500 filter-link" data-filter="slideshow">Slideshow</a>
             </div>
-            <div class="grid grid-cols-3 gap-4">
-             <div class="relative">
-              <img alt="Abstract image with orange and white colors" class="w-full h-auto rounded-lg" height="200" src="images/video/02.png" width="300"/>
-              <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">
-               HD 1:20
-              </div>
-              <div class="absolute inset-0 flex items-center justify-center">
-               <i class="fas fa-play text-white text-2xl">
-               </i>
-              </div>
-             </div>
-             <div class="relative">
-              <img alt="Abstract image with pink and yellow colors" class="w-full h-auto rounded-lg" height="200" src="images/video/02.png" width="300"/>
-              <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">
-               HD 1:20
-              </div>
-              <div class="absolute inset-0 flex items-center justify-center">
-               <i class="fas fa-play text-white text-2xl">
-               </i>
-              </div>
-             </div>
-             <div class="relative">
-              <img alt="Abstract image with green and orange colors" class="w-full h-auto rounded-lg" height="200" src="images/video/02.png" width="300"/>
-              <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">
-               HD 1:20
-              </div>
-              <div class="absolute inset-0 flex items-center justify-center">
-               <i class="fas fa-play text-white text-2xl">
-               </i>
-              </div>
-             </div>
-             <div class="relative">
-              <img alt="Abstract image with purple colors" class="w-full h-auto rounded-lg" height="200" src="images/video/02.png" width="300"/>
-              <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">
-               HD 1:20
-              </div>
-              <div class="absolute inset-0 flex items-center justify-center">
-               <i class="fas fa-play text-white text-2xl">
-               </i>
-              </div>
-             </div>
-             <div class="relative">
-              <img alt="Abstract image with pink and black colors" class="w-full h-auto rounded-lg" height="200" src="images/video/02.png" width="300"/>
-              <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">
-               HD 1:20
-              </div>
-              <div class="absolute inset-0 flex items-center justify-center">
-               <i class="fas fa-play text-white text-2xl">
-               </i>
-              </div>
-             </div>
-             <div class="relative">
-              <img alt="Abstract image with multiple colors" class="w-full h-auto rounded-lg" height="200" src="images/video/02.png" width="300"/>
-              <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">
-               HD 1:20
-              </div>
-              <div class="absolute inset-0 flex items-center justify-center">
-               <i class="fas fa-play text-white text-2xl">
-               </i>
-              </div>
-             </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="relative template-item" data-category="recommended">
+                    <img src="images/video/v-1.png" alt="Orange abstract image" class="w-full rounded-lg" width="300" height="200"/>
+                    <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">HD 1:20</div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <i class="fas fa-play text-white text-2xl"></i>
+                    </div>
+                </div>
+                <div class="relative template-item" data-category="promo">
+                    <img src="images/video/v-2.png" alt="Pink abstract image" class="w-full rounded-lg" width="300" height="200"/>
+                    <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">HD 1:20</div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <i class="fas fa-play text-white text-2xl text-center"></i>
+                    </div>
+                </div>
+                <div class="relative template-item" data-category="education">
+                    <img src="images/video/v-3.png" alt="Green abstract image" class="w-full rounded-lg" width="300" height="200"/>
+                    <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">HD 1:20</div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <i class="fas fa-play text-white text-2xl"></i>
+                    </div>
+                </div>
+                <div class="relative template-item" data-category="intro-outro">
+                    <img src="images/video/v-4.png" alt="Purple abstract image" class="w-full rounded-lg" width="300" height="200"/>
+                    <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">HD 1:20</div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <i class="fas fa-play text-white text-2xl"></i>
+                    </div>
+                </div>
+                <div class="relative template-item" data-category="sport">
+                    <img src="images/video/v-5.png" alt="Pink abstract image" class="w-full rounded-lg" width="300" height="200"/>
+                    <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">HD 1:20</div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <i class="fas fa-play text-white text-2xl"></i>
+                    </div>
+                </div>
+                <div class="relative template-item" data-category="real-estate">
+                    <img src="images/video/v-6.png" alt="Multicolor abstract image" class="w-full rounded-lg" width="300" height="200"/>
+                    <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">HD 1:20</div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <i class="fas fa-play text-white text-2xl"></i>
+                    </div>
+                </div>
             </div>
+        </div>
+        <script>
+            document.querySelectorAll('.filter-link').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const filter = this.getAttribute('data-filter');
+                    document.querySelectorAll('.filter-link').forEach(link => link.classList.remove('text-gray-900', 'font-semibold', 'border-b-2', 'border-red-500'));
+                    this.classList.add('text-gray-900', 'font-semibold', 'border-b-2', 'border-red-500');
+                    document.querySelectorAll('.template-item').forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        </script>
             <div class="flex justify-center mt-8">
              <button class="bg-[#F74988] text-white px-6 py-2 rounded-md">
               Create a video
@@ -234,6 +212,7 @@
             </div>
            </div>
       </Section>
+          <!-- Filtering Part End  -->
 
       <!-- Catagories Section Start -->
       <section class="px-[196px] mt-[90px]">
@@ -407,45 +386,45 @@
             <div class="p-4 ">
                 <h4 class="text-[18px] font-medium text-[#0F0F0F]">Product</h4>
                 <ul>
-                    <li class="text-[#4F5153] mt-5">Text to video</li>
-                    <li class="text-[#4F5153] mt-3">Text to video</li>
-                    <li class="text-[#4F5153] mt-3">Rotate Video</li>
-                    <li class="text-[#4F5153] mt-3">Cut Video</li>
-                    <li class="text-[#4F5153] mt-3">Video Converter</li>
-                    <li class="text-[#4F5153] mt-3">Screen Recorder</li>
+                    <li class="text-[#4F5153] mt-5"><a href="">Text to video</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Text to video</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Rotate Video</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Cut Video</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Video Converter</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Screen Recorder</a></li>
                 </ul>
             </div>
             <div class="p-4 ">
                 <h4 class="text-[18px] font-medium text-[#0F0F0F]">About Us</h4>
                 <ul>
-                    <li class="text-[#4F5153] mt-5">Company</li>
-                    <li class="text-[#4F5153] mt-3">Reviews</li>
-                    <li class="text-[#4F5153] mt-3">Blog</li>
-                    <li class="text-[#4F5153] mt-3">Press</li>
-                    <li class="text-[#4F5153] mt-3">Contact Us</li>
-                    <li class="text-[#4F5153] mt-3">Site Mapr</li>
+                    <li class="text-[#4F5153] mt-5"><a href="">Company</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Reviews</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Blog</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Press</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Contact Us</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Site Map</a>r</li>
                 </ul>
             </div>
             <div class="p-4 ">
                 <h4 class="text-[18px] font-medium text-[#0F0F0F]">Resources</h4>
                 <ul>
-                    <li class="text-[#4F5153] mt-5">Sign in</li>
-                    <li class="text-[#4F5153] mt-3">Blog</li>
-                    <li class="text-[#4F5153] mt-3">Support</li>
-                    <li class="text-[#4F5153] mt-3">Activities</li>
-                    <li class="text-[#4F5153] mt-3">Stories</li>
+                    <li class="text-[#4F5153] mt-5"><a href="">Sign in</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Blog</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Support</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Activities</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Stories</a></li>
                     <li class="text-[#4F5153] mt-3">Exercises</li>
                 </ul>
             </div>
             <div class= "p-4">
                 <h4 class="text-[18px] font-medium text-[#0F0F0F]">Contact us</h4>
                 <ul>
-                    <li class="text-[#4F5153] mt-5">Email</li>
-                    <li class="text-[#4F5153] mt-3">Facebook</li>
-                    <li class="text-[#4F5153] mt-3">Twitter</li>
-                    <li class="text-[#4F5153] mt-3">LinkedIn</li>
-                    <li class="text-[#4F5153] mt-3">YouTube</li>
-                    <li class="text-[#4F5153] mt-3">Community</li>
+                    <li class="text-[#4F5153] mt-5"><a href="">Email</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Facebook</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Twitter</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">LinkedIn</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">YouTube</a></li>
+                    <li class="text-[#4F5153] mt-3"><a href="">Community</a></li>
                 </ul>
             </div>
         </div>
